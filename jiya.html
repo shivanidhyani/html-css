@@ -1,0 +1,152 @@
+<html>
+<head>
+<style>
+@keyframes shiv
+{
+
+	0%{border-top:4px solid red;width:0%;height:0%;background-color:aqua;}
+	50%{border-left:4px solid green;width:60%;height:0%;background-color:aqua;}
+	70%{border-right:4px solid blue;width:60%;height:0%;background-color:aqua;}
+	90%{border-bottom:4px solid black;width:60%;height:30%;background-color:aqua;}
+	100%{border-bottom:4px solid black;width:0%;height:0%;background-color:aqua;}
+
+
+}
+@keyframes shiv1
+{
+	0%{border-top:4px solid red;width:0%;height:0%;background-color:red;}
+	50%{border-left:4px solid green;width:100%;height:100%;background-color:red;}
+	70%{border-right:4px solid blue;width:100%;height:0%;background-color:red;}
+	90%{border-bottom:4px solid black;width:100%;height:0%;background-color:red;}
+	100%{border-bottom:4px solid black;width:0%;height:0%;background-color:red;}
+
+
+
+}
+
+@keyframes d1
+{
+	0%{top:0%;transform:rotate(0deg);}
+	50%{top:55%;transform:rotate(360deg);}
+	100%{top:0%;transform:rotate(-360deg);}
+
+
+}
+@keyframes d2
+{
+	0%{top:0%;transform:rotate(0deg);}
+	50%{top:55%;transform:rotate(-360deg);}
+	100%{top:0%;transform:rotate(360deg);}
+
+
+}
+.a
+{
+	border:2px solid white;
+	width:60%;
+	height:215%;
+	margin:auto;
+	background-color:white;
+	
+
+}
+body
+{
+	margin:0%;
+	padding:0%;
+	background:radial-gradient(red,navy);
+	background-attachment:fixed;
+
+}
+.b
+{
+	
+	width:60%;
+	height:30%;
+	margin-left:20%;
+	margin-top:1%;
+	animation-name:shiv;
+	animation-duration:10s;
+	poaition:relative;
+
+
+
+}
+.c
+{
+	
+	width:100%;
+	height:100%;
+	margin-left:0%;
+	margin-top:0%;
+	animation-name:shiv1;
+	animation-duration:10s;
+	poaition:relative;
+	animation-delay:10s;
+	animation-iteration-count:infinite;
+
+
+}
+.a1
+{
+
+	width:150px;
+	height:150px;
+	margin-top:5%;
+	margin-left:6%;
+	float:left;
+	animation-name:d1;
+	animation-duration:10s;
+	position:relative;
+	animation-iteration-count:infinite;
+
+}
+.a2
+{
+
+	width:150px;
+	height:150px;
+	margin-top:5%;
+	margin-left:3%;
+	float:left;
+	animation-name:d2;
+	animation-duration:10s;
+	position:relative;
+	animation-iteration-count:infinite;
+
+}
+.text
+{
+	font-size:7em;
+	font-weight:bolder;
+	color:white;
+	font-family:ALGERIAN;
+	margin-left:28%;
+
+}
+</style>
+</head>
+<body>
+<div class = "a">
+<div class = "b">
+<div class = "c">
+<br/><br/><br/><br/><br/><br/><b class = "text" style = "margin-left:25%;">Jiya</b>
+</div>
+</div>
+
+
+<div class = "a1" style = "background:linear-gradient(red,navy);">
+<b class = "text">J</b>
+</div>
+<div class = "a2" style = "background:linear-gradient(navy,aqua);">
+<b class = "text" style = "margin-left:35%;">I</b>
+</div>
+<div class = "a1" style = "background:linear-gradient(magenta,navy);">
+<b class = "text" style = "margin-left:27%;">Y</b>
+</div>
+<div class = "a2" style = "background:linear-gradient(navy,teal);">
+<b class = "text" style = "margin-left:22%;">A</b>
+</div>
+</div>
+</body>
+</html>
